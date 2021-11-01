@@ -39,11 +39,14 @@
 }
 /* Font Styles */
 h3 {
-    font-size: 36px;
+    font-size: 48px;
 }
 h2 {
     font-size: 30px;
     margin-top: 25px;
+}
+h6 {
+    font-size: 34px;
 }
 .viewAll {
     margin-top: 40px;
@@ -154,6 +157,23 @@ ul {
 }
 .pContent {
     font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.test {
+}
+
+.btn-outline-primary {
+    border-color: blueviolet;
+    color: blueviolet;
+    margin-bottom: 35px;
+}
+.btn-outline-primary:hover {
+    color: white;
+    background-color: blueviolet;
 }
 
 /* Footer */
