@@ -37,6 +37,10 @@
     border-right: 1px solid rgb(44, 44, 44);
     height: auto;
 }
+li a:hover {
+    text-decoration: none;
+    color: blueviolet !important;
+}
 /* Font Styles */
 h3 {
     font-size: 48px;
@@ -82,14 +86,17 @@ h6 {
 .nav-tabs {
     justify-content: center;
     width: 100%;
-    padding-bottom: 25px;
 }
 .nav-link {
     text-decoration: none;
     color: black;
+    border: none;
 }
 .navActive {
     border-bottom: 10px solid blueviolet;
+}
+.nav-link:active {
+    border: transparent;
 }
 .leftNav {
     position: fixed;
@@ -164,6 +171,8 @@ p {
 }
 
 .test {
+    height: 820px;
+    width: 2000px;
 }
 
 .btn-outline-primary {
@@ -174,6 +183,12 @@ p {
 .btn-outline-primary:hover {
     color: white;
     background-color: blueviolet;
+    border: blueviolet;
+}
+
+.related {
+    margin: 23px;
+    margin-bottom: 50px;
 }
 
 /* Footer */
