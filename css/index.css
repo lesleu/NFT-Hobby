@@ -73,8 +73,23 @@ h6 {
 .card {
     border-radius: 10px;
 }
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12) 0 4px 8px rgba(0, 0, 0, .06);
+    color: blueviolet;
+}
+.card-text {
+    color: black !important;
+}
 .lastCard {
     margin-bottom: 50px;
+}
+.viewAll {
+    text-decoration: none;
+    color: black;
+}
+.viewAll:hover {
+    color: blueviolet;
 }
 
 /* Axie Infinity Page */
@@ -191,6 +206,15 @@ p {
     margin-bottom: 50px;
 }
 
+/* --- RWD --- */
+@media screen and (max-width:800px) {
+    /* Container */
+    .axieHomeGrid {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: 1fr 1fr;
+    }
+}
 /* Footer */
 .social {
     height: 100px;
